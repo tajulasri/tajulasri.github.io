@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Mohd Tajul Asri
-title: Software Developer
+title: Fullstack Developer
 email: mtajulasri@gmail.com
 website: tajulasri.github.io
 
@@ -48,17 +48,14 @@ github_username:  tajulasri
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a software developer who are really passionate about my career journey. Getting involved in various of projects environments since 2014 and what i found is strong self motivation to keep learning and exploring more about new technology especially in backend technology and mobile computing.
-  
-  I am most skilled in: <mark>Web</mark> and <mark>Mobile</mark> development and <mark> System Admininistration</mark>
-
+ A software developer with hands-on experience in all processes in software development life cycle starting from designing to implementing next is deploying and maintaining the products by collecting relevant metrics for further improvisation.
 content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         sub_title: Programming Language
-        caption: PHP, Python, Javascript, Dart
+        caption: PHP, Javascript, Python, NodeJS, Dart
         # link: github.com/sproogen
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
@@ -66,7 +63,7 @@ content:
     
       - layout: left
         sub_title: Frameworks
-        caption: Laravel, ExpressJS, Flask, Flutter, Angular, Vue
+        caption: Laravel, ExpressJS, NestJS, Flutter, Angular, Vue
         # link: github.com/sproogen
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
@@ -74,13 +71,11 @@ content:
 
       - layout: left
         sub_title: Others
-        caption: API Documentation, Version Control(GIT), Unit Testing, Linux
+        caption: API Documentation, Version Control(GIT), Unit Testing, Linux, Docker.
         # link: github.com/sproogen
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
          Others skills to complete software engineering working flow in daily job routine.
-
-
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -115,7 +110,7 @@ content:
         sub_title: Sr Software Developer
         caption: January 2018 - Present
         quote: >
-          Lead the team, designing architecture is part of my duty here.
+          Lead the team, designing architecture is part of my duty here and of course coding contribution.
           
         description: | # this will include new lines to allow paragraphs
           At this phase, the most important skills is reading and researching and refactoring current codebase according to standard guideline, also getting involved in designing architecture according to problem statement 
