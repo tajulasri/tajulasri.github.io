@@ -55,7 +55,7 @@ content:
     content:
       - layout: left
         sub_title: Programming Language
-        caption: PHP, Javascript, Python, NodeJS, Dart
+        caption: PHP, Javascript, Python, NodeJS, Dart, Go 
         # link: github.com/sproogen
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
@@ -71,7 +71,7 @@ content:
 
       - layout: left
         sub_title: Others
-        caption: API Documentation, Version Control(GIT), Unit Testing, Linux, Docker.
+        caption: API Documentation, Version Control(GIT), Unit Testing, Linux, Docker, Grafana, Kubernetes.
         # link: github.com/sproogen
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
