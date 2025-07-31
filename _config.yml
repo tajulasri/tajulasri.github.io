@@ -6,13 +6,14 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Mohd Tajul Asri
-title: Fullstack Developer
+name: Mohd Tajul Asri B. Rosli
+title: Senior Technical Developer
 email: mtajulasri@gmail.com
 website: tajulasri.github.io
+phone: +60 145387564 
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 #twitter_username: facespics
@@ -48,77 +49,118 @@ github_username:  tajulasri
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- A software developer with hands-on experience in all processes in software development life cycle starting from designing to implementing next is deploying and maintaining the products by collecting relevant metrics for further improvisation.
+  Experienced software developer with a proven track record of designing, developing, and optimizing web-based and mobile applications. 
+  Currently serving as Senior Technical Developer at Supreme EBanq Fintech, leading mobile development and microservices architecture.
+  
+  Proficient in PHP, JavaScript, Go, Python, and Dart with extensive experience in fintech solutions, email marketing platforms, 
+  and high-performance web applications serving millions of users.
+  
+  Specialized in mobile development (iOS/Android), system architecture design, and scalable deployment solutions.
 content:
-  - title: Skills # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Technical Skills
+    layout: list
     content:
       - layout: left
-        sub_title: Programming Language
-        caption: PHP, Javascript, Python, NodeJS, Dart, Go 
-        # link: github.com/sproogen
-        # link_text: Project Website
-        description: | # this will include new lines to allow paragraphs
-         Common and fluent programming languages in daily job routine.
+        sub_title: Programming Languages
+        caption: PHP • JavaScript • Go • Python • Dart
+        description: |
+          Proficient in multiple programming languages with extensive experience in building scalable applications and optimization.
     
       - layout: left
-        sub_title: Frameworks
-        caption: Laravel, ExpressJS, NestJS, Flutter, Angular, Vue
-        # link: github.com/sproogen
-        # link_text: Project Website
-        description: | # this will include new lines to allow paragraphs
-         Common and fluent programming frameworks in daily job routine.
+        sub_title: Databases & Storage  
+        caption: MySQL • PostgreSQL • MongoDB • Redis
+        description: |
+          Experience with both SQL and NoSQL databases, data modeling, query optimization, and caching strategies.
 
       - layout: left
-        sub_title: Others
-        caption: API Documentation, Version Control(GIT), Unit Testing, Linux, Docker, Grafana, Kubernetes.
-        # link: github.com/sproogen
-        # link_text: Project Website
-        description: | # this will include new lines to allow paragraphs
-         Others skills to complete software engineering working flow in daily job routine.
+        sub_title: Mobile Development
+        caption: Flutter SDK • iOS • Android • Cross-platform Development
+        description: |
+          Specialized in mobile application development using Flutter SDK for both iOS and Android platforms, including e-wallet and POS systems.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        sub_title: DevOps & Monitoring
+        caption: Docker • Kubernetes • Git • Linux • Unit Testing • Grafana
+        description: |
+          Expertise in containerization, deployment pipelines, system monitoring, and maintaining high-quality code through testing practices.
+
+  - title: Featured Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Mobile E-Wallet Application (iOS/Android)
+        sub_title: Team Lead & Mobile Development
+        caption: Flutter • iOS • Android • Fintech • Payment Systems
+        description: |
+          Leading the development of a mobile e-wallet application for Supreme EBanq Fintech. Responsible for system architecture design, 
+          development pipeline implementation, and deployment planning. Currently involved in R&D for Android Mobile POS using payment terminals.
+
+      - layout: top-middle
+        title: Go.my URL Shortener Platform
+        sub_title: High-Performance Web Application
+        caption: Go • PHP • High-Traffic Systems • Optimization
+        description: |
+          Designed, developed and optimized URL shortener service serving millions of URL shortening requests monthly. 
+          Built scalable architecture to handle high-traffic loads with optimized performance and reliability.
+
+      - layout: top-middle
+        title: Email Marketing & SMS Platform
+        sub_title: Full-Stack Development & Optimization
+        caption: PHP • JavaScript • MTA • API Integration • Frontend Optimization
+        description: |
+          Designed and optimized SMS sending services, email marketing web applications, and Mail Transfer Agent (MTA) codebase. 
+          Improved system speed, reliability, and user experience across marketing platforms and API integrations.
+
+  - title: Professional Experience
+    layout: list
     content:
       - layout: left
-        title: Geliga World Sdn Bhd
-        #link: https://www.shareinvestor.com/
-        # link_text: boringcompany.com
-        sub_title: Backend Developer
-        caption: July 2015 - Jun 2016
+        title: Supreme EBanq Fintech (SARAWAK) Bhd.
+        sub_title: Senior Technical Developer (Mobile, Microservices)
+        caption: 2024 - Current
         quote: >
-          Solving problems related with backend issues and getting involved in developing new products.
-        description: | # this will include new lines to allow paragraphs
-            Product base never be easy even in software engineering, solving a puzzle according to product's owner is quite challenging while maintaining the performance and coding standard but everything is quite smooth via teamwork.
+          Leading mobile development and system architecture for fintech solutions
+        description: |
+          • **Team Leadership:** Leading Mobile (iOS, Android) e-wallet project team including planning and development phases
+          • **System Architecture:** Designing and implementing system architecture, deployment pipelines and infrastructure planning
+          • **Research & Development:** Actively involved in R&D for Android Mobile POS using payment terminal technology
+          • **Fintech Expertise:** Specialized in financial technology solutions and payment systems integration
 
       - layout: left
-        title: Nazrol Tech Sdn Bhd
-        #link: https://www.shareinvestor.com/
-        # link_text: boringcompany.com
-        sub_title: Backend Developer
-        caption: Jun 2016 - July 2017
+        title: Web Impian Sdn Bhd.
+        sub_title: Senior Programmer
+        caption: 2022 - 2024
         quote: >
-          Getting serious about backend development
-        description: | # this will include new lines to allow paragraphs
-           Working with large number of developers in a single team to accomplished sprint using agile methodology, as backend developer in the team im focusing the REST api development
-           to deliver most presentable and reliable REST api to frontend team to meet high standard UX design guideline.
+          High-performance systems and marketing platform optimization
+        description: |
+          • **SMS Services:** Designed, developed and optimized SMS sending services improving speed and reliability
+          • **Frontend Optimization:** Enhanced marketing SMS web portal frontend for better user experience
+          • **Email Systems:** Designed and optimized MTA (Mail Transfer Agent) codebase powering email marketing software and API integrations
+          • **High-Traffic Applications:** Developed and optimized Go.my URL shortener serving millions of monthly requests
+          • **Deployment:** Actively involved in product deployment and infrastructure management
 
       - layout: left
         title: Codexpert Resources
-        #link: https://www.shareinvestor.com/
-        # link_text: boringcompany.com
-        sub_title: Sr Software Developer
-        caption: January 2018 - Present
+        sub_title: Software Developer
+        caption: 2018 - 2022
         quote: >
-          Lead the team, designing architecture is part of my duty here and of course coding contribution.
-          
-        description: | # this will include new lines to allow paragraphs
-          At this phase, the most important skills is reading and researching and refactoring current codebase according to standard guideline, also getting involved in designing architecture according to problem statement 
-          for an example microservices pattern such as event sourcing pattern.
+          Full-stack development and mobile application expertise
+        description: |
+          • **Web Applications:** Designed, developed and optimized web-based applications based on client requirements
+          • **Mobile Development:** Specialized in Flutter SDK mobile application development
+          • **Deployment:** Participated in application deployment and maintenance processes
+          • **Client Solutions:** Delivered custom software solutions meeting specific business requirements
 
-          Getting involed in mobile app development using Flutter framework, designing and choose practicle state management pattern in mobile development is quite challenging.
-
-          Code review and unit testing.
+      - layout: left
+        title: Nazrol Tech Sdn Bhd.
+        sub_title: Developer
+        caption: 2016 - 2017
+        quote: >
+          Frontend specialization and web application development
+        description: |
+          • **Web Development:** Designed, developed and optimized web-based applications for client requirements
+          • **Frontend Expertise:** Specialized in AngularJS frontend application development
+          • **Deployment:** Involved in application deployment and production maintenance
 
 
   - title: Education # Title for the section
@@ -134,13 +176,16 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my time in Polytechnic i learnt how to think systematically according to engineering practice and working in team to accomplished tight dateline assignments. Eventhough with tight schedule i love to balance my student life with outdoor sports.
 
-  - title: A Little More About Me
+  - title: Beyond Technology
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering some of my other interests and hobbies are:
-      - Fishing
-      - Cycling
-      - Reading 
+    content: |
+      When I'm not coding, I enjoy pursuing activities that help maintain work-life balance and continuous learning:
+      
+      **Outdoor Activities:** Fishing and cycling help me stay active and provide mental clarity for problem-solving
+      
+      **Continuous Learning:** Reading technical blogs, industry publications, and contributing to open-source projects
+      
+      **Professional Development:** Attending tech meetups, conferences, and mentoring aspiring developers in the community 
 
 # Footer
 footer_show_references: true
